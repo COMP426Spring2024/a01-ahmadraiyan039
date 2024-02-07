@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color:#7BAFD4;
+    margin: 0;
+    padding: 0;
+}
+
+#para1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: blue;
+    font-style: italic;
+}
+
+#para2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: red;
+    font-style: italic;
+}
+
+header, nav, main, footer {
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #000;
+}
+
+.header_text{
+    text-align: center;
+    color: #000;
+}
+
+/* Specific Styles */
+.header {
+    background-image: url("images/odin_in_norse.webp");
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+nav {
+    background-color: #eee;
+    padding: 10px;
+}
+
+footer {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .image-container {
+    display: flex; /* Use flexbox for layout */
+  }
+
+  .image-container figure {
+    margin-right: 10px; /* Add some space between figures */
+  }
+
+  .image-container figure img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+  }
+
+  .image-container figure figcaption {
+    text-align: center; /* Center the caption */
+}
